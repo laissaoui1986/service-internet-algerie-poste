@@ -1,0 +1,113 @@
+body{
+    background-color:rgba(149, 132, 213, 0.89);; 
+}
+.body2 {
+background-color: aliceblue;
+background-image:url("https://baridinet.poste.dz/img/logo-baridinet.png");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+
+font-style: italic;
+text-decoration-color: black;
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+@keyframes  mymove2{
+    from {background-color: red;}
+    to {background-color: blue;}
+    }
+    p{
+        font-size: medium;
+        text-decoration-color: blue;
+        animation-duration: 3s;
+        animation-name: glissement;
+        animation-iteration-count: infinite;
+      }
+#color1{
+    color: rgb(59, 4, 16);
+    text-decoration :wavy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.class1{color: rgb(178, 214, 223);
+       text-decoration: underline;
+       font-style: italic;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       
+}
+#div1{
+    padding:0.5cm;
+    border: 5px solid black;
+   margin: auto;
+  height: max-content;
+  background: rgba(154, 7, 7, 0.991);
+  
+  
+  background: red;
+  animation: mymove 2s infinite;
+
+  box-sizing: content-box;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+@keyframes  mymove{
+from {background-color: red;}
+to {background-color: blue;}
+}
+p{
+    font-size: medium;
+    text-decoration-color: blue;
+    animation-duration: 3s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 25%;
+      width: 100%;
+    }
+  }
+  .li1{
+    text-decoration: aliceblue;
+  }
+  .strong{
+    color: brown;
+    text-decoration: underline;
+    font-size: larger;
+  }
+  .limenu{
+    color: rgb(108, 16, 13);
+    font-size: larger;
+    font-style: oblique;
+    font-style: italic;
+    backface-visibility: visible;
+    text-orientation: upright;
+  }
+  .a1{
+    font-size: x-large;
+    font-style: oblique;
+    color: rgb(51, 30, 3);
+    font-style: italic;
+    text-shadow: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+  .divmenu{
+
+    padding:0.5cm;
+    border: 5px solid black;
+   margin: auto;
+  height: max-content;
+  background: rgba(223, 197, 197, 0.991);
+ 
+}
